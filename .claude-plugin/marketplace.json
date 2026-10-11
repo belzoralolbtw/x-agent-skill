@@ -1,0 +1,17 @@
+{
+  "name": "x-agent-skill",
+  "description": "The X (Twitter) agent skill pack for Claude",
+  "owner": {
+    "name": "belzoralolbtw",
+    "url": "https://github.com/belzoralolbtw"
+  },
+  "plugins": [
+    {
+      "name": "x-agent",
+      "description": "Ten Claude skills that run an X (Twitter) account, including the reply game that actually grows an account and a humanizer that clears the AI giveaways and rates the draft against five gates.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/belzoralolbtw/x-agent-skill"
+    }
+  ]
+}

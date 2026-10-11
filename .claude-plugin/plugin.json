@@ -1,0 +1,13 @@
+{
+  "name": "x-agent",
+  "description": "Ten agent skills that run an X (Twitter) account: posts from 21 opener patterns, threads, the reply game that actually grows an account, profile and pinned-post scoring, a weekly plan, repurposing, audits, DMs, and a humanizer that clears the AI giveaways and rates the draft before it goes out.",
+  "version": "1.0.0",
+  "author": {
+    "name": "belzoralolbtw",
+    "url": "https://github.com/belzoralolbtw"
+  },
+  "homepage": "https://github.com/belzoralolbtw/x-agent-skill",
+  "repository": "https://github.com/belzoralolbtw/x-agent-skill",
+  "license": "MIT",
+  "keywords": ["x", "twitter", "content", "writing", "humanizer", "social", "marketing", "growth"]
+}

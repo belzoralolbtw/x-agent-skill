@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "note": "Score an X profile the way a stranger decides in 3 seconds whether to follow. Each check is pass or fail. A profile does not need a perfect score, but every failed check is a leak: people click from a reply or a post, read the profile, and leave. Fix the fails in order.",
+  "checks": [
+    {
+      "id": "name",
+      "label": "The name field is searchable, not just a display name",
+      "pass": "The display name contains the words a stranger would search to find this work (for example 'Omar - landing pages' or 'Priya, cold email').",
+      "fail": "The name is only a personal name or a joke, so the account cannot be found by what it does.",
+      "fix": "Add the category to the name field. The @handle stays personal; the name carries the keyword."
+    },
+    {
+      "id": "bio_line_1",
+      "label": "The first bio line says what the reader gets",
+      "pass": "One line a stranger understands with no context, aimed at them, not at the owner.",
+      "fail": "It describes the owner ('passionate about marketing') instead of the reader's outcome ('I help X do Y') or the content they will get.",
+      "fix": "Rewrite as: who you help + do what + the result, or state plainly what you post about."
+    },
+    {
+      "id": "proof",
+      "label": "There is something that makes it believable",
+      "pass": "A number, a client, a project, a portfolio link, or a pinned post that shows the work.",
+      "fail": "Only claims. '10x growth expert' with nothing behind it reads as a scam.",
+      "fix": "Add one concrete proof point: a result, a named project, or a link to work."
+    },
+    {
+      "id": "pinned",
+      "label": "The pinned post is the best first impression",
+      "pass": "The pinned post is a real post that performs, showing what this account is about.",
+      "fail": "No pinned post, a stale one, or a pinned launch announcement from months ago that no longer represents the account.",
+      "fix": "Pin the strongest recent post, or write a short 'start here' post."
+    },
+    {
+      "id": "follows",
+      "label": "The follow count does not work against the account",
+      "pass": "Following is roughly in line with or below the follower count, or the ratio does not matter because the content is strong.",
+      "fail": "Following 4,000 with 300 followers, which reads as a follow-farming account.",
+      "fix": "Unfollow dormant and non-niche accounts in batches over weeks. Do not mass-unfollow in a day."
+    },
+    {
+      "id": "niche",
+      "label": "The timeline is one thing",
+      "pass": "The last 10 posts are recognizably about one area, so a visitor knows what they are subscribing to.",
+      "fail": "A mix of personal, political, and random posts, so nothing suggests what the account is for.",
+      "fix": "Decide the one lane and let 80 percent of posts sit in it."
+    },
+    {
+      "id": "link",
+      "label": "The link, if any, is worth the click",
+      "pass": "The link goes to something the reader wants now (a list, a tool, a signup), or there is no link.",
+      "fail": "A link to a homepage that says more about the owner than the reader, or a dead link.",
+      "fix": "Point it at the single most useful page, or remove it and put the offer in a pinned reply."
+    }
+  ]
+}

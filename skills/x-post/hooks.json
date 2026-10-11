@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "note": "21 opener patterns for X. The opener carries the whole post. On mobile X shows about four lines, roughly 130-170 characters, before the tap on 'show more', so the first line has to hold on its own and make the tap feel necessary. Each pattern lists the move it makes, a filled sample, when it fits, and how it usually goes wrong.",
+  "rules": [
+    "One thought per opener. If it needs 'and also', it is two posts.",
+    "The opener stands alone. If it only works with the next line, it failed.",
+    "Numbers over adjectives. '11 replies from 400 DMs' beats 'great traction'.",
+    "No hashtags, no 'a thread', no emoji as bullets.",
+    "If the opener would work under anyone else's name, it is not yours.",
+    "Cut any word the meaning survives without."
+  ],
+  "patterns": [
+    {
+      "id": 1,
+      "pattern": "Against the Grain",
+      "template": "The standard advice is {common advice}. I did the opposite for {time} and {result}.",
+      "sample": "The standard advice is to post daily. I posted twice a week for a year and outgrew most daily posters in my feed.",
+      "fits": "Staking out a position. Pulls the most replies of any pattern.",
+      "fails_when": "The advice being opposed is not actually common. Manufacture a straw man and readers leave."
+    },
+    {
+      "id": 2,
+      "pattern": "The Tally",
+      "template": "I {did the thing} for {N} {days}. The count: {breakdown}.",
+      "sample": "I ran cold email for 45 days. The count: 620 sent, 38 opened, 3 calls booked.",
+      "fits": "Experiments and challenges with a countable outcome.",
+      "fails_when": "The count is unsurprising. Lead with the surprise, not the effort."
+    },
+    {
+      "id": 3,
+      "pattern": "What It Cost Me",
+      "template": "{Time or money} went into {wrong thing}. The fix I use now: {one change}.",
+      "sample": "Two years went into a feature nobody opened. The fix I use now: I ask five users before I write a line.",
+      "fits": "Teaching from a scar, without boasting.",
+      "fails_when": "The loss is trivial. The lesson only lands if the cost was real."
+    },
+    {
+      "id": 4,
+      "pattern": "Then and Now",
+      "template": "{Time} ago, {old state}. Today, {new state}. The turn was {one thing}.",
+      "sample": "A year ago, 40 followers and no idea what to write. Today, 9,000 and inbound leads. The turn was one format.",
+      "fits": "Transformation stories, single post or thread.",
+      "fails_when": "A huge change credited to something tiny, or the real cause hidden."
+    },
+    {
+      "id": 5,
+      "pattern": "Counting Down",
+      "template": "{N} {things} that {specific result}.",
+      "sample": "6 formats that got me 2M impressions before I crossed 1,500 followers.",
+      "fits": "Saveable posts. Bookmarks are a strong signal here.",
+      "fails_when": "Fewer than N real items, or items the reader already knows."
+    },
+    {
+      "id": 6,
+      "pattern": "From the Inside",
+      "template": "After {N} years in {field}, here is the part that never makes the job posting.",
+      "sample": "After eight years pricing software, here is the part that never makes the job posting: the customer almost always names the number first.",
+      "fits": "Insider knowledge that sounds earned.",
+      "fails_when": "The 'secret' is general knowledge dressed as insider."
+    },
+    {
+      "id": 7,
+      "pattern": "Read This If",
+      "template": "If you are {specific situation}, {one instruction}.",
+      "sample": "If you are under 1,000 followers, stop writing threads. Spend 30 days in the replies of ten big accounts instead.",
+      "fits": "Actionable posts aimed at one segment. High profile-click rate.",
+      "fails_when": "The situation is too broad ('if you are a founder') to feel personal."
+    },
+    {
+      "id": 8,
+      "pattern": "Pick a Lane",
+      "template": "{A concrete scenario with a real cost}. What do you do?",
+      "sample": "Your biggest client asks for 40% off and hints they leave without it. What do you do?",
+      "fits": "Scenario posts. Pulls replies because people want to answer.",
+      "fails_when": "The scenario is realistic but the question has no genuine tension, so nobody feels the need to answer."
+    },
+    {
+      "id": 9,
+      "pattern": "Cold Scene",
+      "template": "{Time, place}. {One line someone said or did}. {What it changed.}",
+      "sample": "A Tuesday review, a full room. My lead said the demo was 'fine'. I rebuilt the whole pitch that night and never heard 'fine' again.",
+      "fits": "Emotional posts. Highest dwell time when the scene is concrete.",
+      "fails_when": "The scene has no turn. A scene without stakes is just a paragraph."
+    },
+    {
+      "id": 10,
+      "pattern": "The Proof Stack",
+      "template": "{Outcome} in {exact time}, using {exact method}.",
+      "sample": "Three clients signed in 11 days, using one 4-line email and no calls.",
+      "fits": "Proof posts. Screenshot-friendly.",
+      "fails_when": "Vague timing. 'Over a few months' kills the whole line."
+    },
+    {
+      "id": 11,
+      "pattern": "The Myth",
+      "template": "{Widely believed cause} is not why {outcome}. {The real cause}.",
+      "sample": "The algorithm is not why your posts are quiet. Nobody knows what you stand for yet.",
+      "fits": "Correcting a belief the reader holds.",
+      "fails_when": "The myth is not actually believed, so there is nothing to correct."
+    },
+    {
+      "id": 12,
+      "pattern": "Side by Side",
+      "template": "{A} and {B} cost about the same. {Which one wins, and the one difference}.",
+      "sample": "A $9k agency retainer and a $60 tool cost the same in year one. The tool won on speed, and the difference was one weekend of setup.",
+      "fits": "Teaching a distinction between two close options.",
+      "fails_when": "A and B differ in ten ways. Then the comparison is dishonest."
+    },
+    {
+      "id": 13,
+      "pattern": "Permission",
+      "template": "You are allowed to {unpopular but sound choice}.",
+      "sample": "You are allowed to turn down well-paid work that makes you miserable. I did, twice, and my calendar got better.",
+      "fits": "Opinion posts that give the reader relief.",
+      "fails_when": "The permission is obviously fine already, so there is nothing to grant."
+    },
+    {
+      "id": 14,
+      "pattern": "Hard Stop",
+      "template": "{Very short blunt statement}.",
+      "sample": "I got laid off on a Friday.",
+      "fits": "Pattern interrupt. A thread opener or a story opener.",
+      "fails_when": "It is blunt but empty, with no follow-through in the next line."
+    },
+    {
+      "id": 15,
+      "pattern": "The Quiet Bill",
+      "template": "{Everyday habit} is quietly costing you {specific thing}.",
+      "sample": "That 'quick sync' on your calendar is quietly costing you six hours a week.",
+      "fits": "Making an invisible cost visible.",
+      "fails_when": "A made-up figure. Cite the source or drop the number."
+    },
+    {
+      "id": 16,
+      "pattern": "The Distinction",
+      "template": "{Weak version} does {X}. {Strong version} does {Y}.",
+      "sample": "Average sellers answer the question asked. Strong ones ask why it was asked.",
+      "fits": "Sharpening a skill the reader already has.",
+      "fails_when": "The two versions are the same thing said twice."
+    },
+    {
+      "id": 17,
+      "pattern": "The Clock",
+      "template": "{Old time for a task} is now {new time}. What changed: {one thing}.",
+      "sample": "A week of content used to take five hours. It takes twenty minutes now. What changed: I write in batches on Sunday.",
+      "fits": "Productivity posts with a concrete before and after.",
+      "fails_when": "The saving is exaggerated and the reader can tell."
+    },
+    {
+      "id": 18,
+      "pattern": "My Rule",
+      "template": "I do not {thing most people do}. Here is why it works.",
+      "sample": "I do not take discovery calls. Here is why it works: the first email has to be good enough to skip one.",
+      "fits": "Opinion plus practice. Easy to quote.",
+      "fails_when": "The rule is edgy with no reasoning behind it."
+    },
+    {
+      "id": 19,
+      "pattern": "The Exception",
+      "template": "{Expected outcome} did not happen. Instead, {surprising outcome}. The reason: {one line}.",
+      "sample": "The person with a flawless resume did not get the offer. The one with a broken demo did. The reason: he shipped while the other described shipping.",
+      "fits": "Surprise plus a lesson.",
+      "fails_when": "The surprise is not surprising once explained."
+    },
+    {
+      "id": 20,
+      "pattern": "Walking Away",
+      "template": "I {ended or dropped something}. {What happened after}.",
+      "sample": "I dropped my highest-paying client in March. Revenue is up 30% since.",
+      "fits": "Bold decisions with a measurable result.",
+      "fails_when": "The result is unrelated to the decision, so the post lies by implication."
+    },
+    {
+      "id": 21,
+      "pattern": "Copy This",
+      "template": "Steal the {exact thing}. {What it does}.",
+      "sample": "Steal the 4-line email that reopened three dead deals. Paste it, fill the brackets, send.",
+      "fits": "Giveaway posts. High bookmark and follow rate.",
+      "fails_when": "The giveaway is not the real artifact the author actually uses."
+    }
+  ]
+}
