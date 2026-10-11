@@ -1,12 +1,14 @@
 ---
 name: x-post
 description: >-
-  Draft an X (Twitter) post from a rough idea, using 21 opener patterns and the
-  account's own voice, then clear the AI giveaways before it ships. Use when
-  the user wants a tweet, a post, an opener, an opening line, or says "post
-  about X", "write this as a tweet", or asks for hook options. Returns three
-  candidate openers, one finished post, and a paste-ready block that is never
-  published without an explicit yes.
+  Draft a post for X (Twitter) from a rough idea, using 21 opener patterns and
+  the account's own voice, then clear the AI giveaways before it ships. Use when
+  the user wants to write something for their X timeline: a tweet, a post, an
+  opener, an opening line, "write this as a tweet", "post this to X / Twitter",
+  or asks for opener options. This is for X (Twitter) only, not LinkedIn,
+  Instagram, Threads, or any other network. Returns three candidate openers, one
+  finished post, and a paste-ready block that is never published without an
+  explicit yes.
 ---
 
 # x-post
